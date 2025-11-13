@@ -1,13 +1,13 @@
 # traffic-situation-prediction
 # Dự đoán Tình Trạng Giao Thông bằng Học Máy
 
-## 🎯 Giới thiệu
+## Giới thiệu
 Đề tài tập trung vào **dự đoán tình trạng giao thông** (Traffic Situation Prediction) dựa trên dữ liệu ghi nhận thực tế gồm nhiều loại phương tiện qua từng khung giờ trong ngày.  
 Mục tiêu là **xây dựng và so sánh nhiều mô hình học máy** nhằm dự đoán tình trạng giao thông (*low, normal, high, heavy...*) dựa vào số lượng xe cộ và thời gian trong ngày.
 
 ---
 
-## 📊 Mô tả bộ dữ liệu
+## Mô tả bộ dữ liệu
 
 Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 tháng về lưu lượng giao thông, được ghi nhận theo từng khung thời gian 15 phút.
 
@@ -23,7 +23,7 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 | **Total** | Tổng số phương tiện (tổng 4 loại trên) |
 | **Traffic Situation** | Nhãn phân loại tình trạng giao thông (*low, normal, high, heavy, …*) — đây là **biến mục tiêu** cần dự đoán |
 
-📈 **Ví dụ mẫu dữ liệu:**
+**Ví dụ mẫu dữ liệu:**
 
 | Time | Date | Day of the week | CarCount | BikeCount | BusCount | TruckCount | Total | Traffic Situation |
 |------|------|----------------|-----------|------------|-----------|-------------|--------|--------------------|
@@ -33,7 +33,7 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 
 ---
 
-## ⚙️ Các mô hình học máy sử dụng
+## Các mô hình học máy sử dụng
 
 | STT | Mô hình | Thư viện | Mô tả ngắn |
 |-----|----------|-----------|------------|
@@ -47,7 +47,7 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 
 ---
 
-## 🔍 Quy trình thực hiện
+## Quy trình thực hiện
 
 1. **Tiền xử lý dữ liệu**
    - Xử lý giá trị thiếu (nếu có)
@@ -73,7 +73,7 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 
 ---
 
-## 🧠 Kết quả minh họa (ví dụ)
+## Kết quả minh họa (ví dụ)
 
 | Mô hình | Accuracy (%) | F1-score | Nhận xét |
 |----------|---------------|----------|-----------|
@@ -85,11 +85,9 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 | AdaBoost | 87.4 | 0.86 | Boosting đơn giản, kết quả tốt |
 | ANN | **90.3** | **0.89** | Hiệu năng cao nhất |
 
-> 📌 *Các giá trị trên chỉ minh họa – hãy thay bằng kết quả thực tế sau khi huấn luyện.*
-
 ---
 
-## 🧰 Thư viện sử dụng
+## Thư viện sử dụng
 - `pandas`, `numpy` – xử lý dữ liệu  
 - `matplotlib`, `seaborn` – trực quan hóa  
 - `scikit-learn` – huấn luyện mô hình học máy  
@@ -98,24 +96,13 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 
 ---
 
-## 💡 Kết luận
+## Kết luận
 - Dữ liệu giao thông có thể dự đoán hiệu quả bằng nhiều mô hình học máy khác nhau.  
 - Các mô hình **Boosting** và **ANN** cho kết quả chính xác cao nhất.  
 - Biến thời gian (*Time*) và tổng phương tiện (*Total*) có ảnh hưởng lớn đến dự đoán.  
 
 ---
 
-## 🌱 Hướng phát triển
-- Áp dụng **mô hình LSTM / GRU** để khai thác tính chuỗi thời gian.  
-- Kết hợp thêm dữ liệu **thời tiết** hoặc **sự kiện đặc biệt** (lễ, tết…).  
-- Xây dựng **bảng điều khiển (dashboard)** hiển thị tình trạng giao thông theo thời gian thực.  
-
----
-
-## 👩‍💻 Thông tin tác giả
-> **Họ tên:** Nguyễn Thị Thanh Như  
-> **Môn học:** Học máy (Machine Learning)  
-> **Bài tập lớn – Cuối kỳ**  
 > **Trường:** [Điền tên trường bạn nếu muốn]  
 > 📅 **Thời gian thực hiện:** Học kỳ I – Năm học 2025  
 
