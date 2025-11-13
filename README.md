@@ -37,13 +37,13 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 
 | STT | Mô hình | Thư viện | Mô tả ngắn |
 |-----|----------|-----------|------------|
-| 1️⃣ | **Logistic Regression** | `scikit-learn` | Mô hình tuyến tính, dùng làm baseline |
-| 2️⃣ | **Naive Bayes** | `GaussianNB` | Dựa trên xác suất Bayes, nhanh và đơn giản |
-| 3️⃣ | **Decision Tree** | `DecisionTreeClassifier` | Phân loại bằng cách chia nhỏ dữ liệu theo thuộc tính |
-| 4️⃣ | **Random Forest** | `RandomForestClassifier` | Trung bình kết quả của nhiều cây để tăng độ chính xác |
-| 5️⃣ | **Gradient Boosting** | `GradientBoostingClassifier` | Học nối tiếp nhiều mô hình yếu để cải thiện kết quả |
-| 6️⃣ | **AdaBoost** | `AdaBoostClassifier` | Boosting đơn giản, hiệu quả tốt |
-| 7️⃣ | **Artificial Neural Network (ANN)** | `TensorFlow / Keras` | Mô hình phi tuyến học sâu, phù hợp cho dữ liệu phức tạp |
+| 1 | **Logistic Regression** | `scikit-learn` | Mô hình tuyến tính, dùng làm baseline |
+| 2 | **Naive Bayes** | `GaussianNB` | Dựa trên xác suất Bayes, nhanh và đơn giản |
+| 3 | **Decision Tree** | `DecisionTreeClassifier` | Phân loại bằng cách chia nhỏ dữ liệu theo thuộc tính |
+| 4 | **Random Forest** | `RandomForestClassifier` | Trung bình kết quả của nhiều cây để tăng độ chính xác |
+| 5 | **Gradient Boosting** | `GradientBoostingClassifier` | Học nối tiếp nhiều mô hình yếu để cải thiện kết quả |
+| 6 | **AdaBoost** | `AdaBoostClassifier` | Boosting đơn giản, hiệu quả tốt |
+| 7 | **Artificial Neural Network (ANN)** | `TensorFlow / Keras` | Mô hình phi tuyến học sâu, phù hợp cho dữ liệu phức tạp |
 
 ---
 
