@@ -91,9 +91,4 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 - Biến thời gian (*Time*) và tổng phương tiện (*Total*) có ảnh hưởng lớn đến dự đoán.  
 
 
-> **Trường:** [Điền tên trường bạn nếu muốn]  
-> 📅 **Thời gian thực hiện:** Học kỳ I – Năm học 2025  
-
----
-
 
