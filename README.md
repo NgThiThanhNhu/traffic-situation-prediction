@@ -5,8 +5,6 @@
 Đề tài tập trung vào **dự đoán tình trạng giao thông** (Traffic Situation Prediction) dựa trên dữ liệu ghi nhận thực tế gồm nhiều loại phương tiện qua từng khung giờ trong ngày.  
 Mục tiêu là **xây dựng và so sánh nhiều mô hình học máy** nhằm dự đoán tình trạng giao thông (*low, normal, high, heavy...*) dựa vào số lượng xe cộ và thời gian trong ngày.
 
----
-
 ## Mô tả bộ dữ liệu
 
 Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 tháng về lưu lượng giao thông, được ghi nhận theo từng khung thời gian 15 phút.
@@ -31,8 +29,6 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 | 4:00:00 AM | 10 | Tuesday | 82 | 7 | 3 | 10 | 102 | low |
 | 4:30:00 AM | 10 | Tuesday | 89 | 10 | 2 | 10 | 111 | low |
 
----
-
 ## Các mô hình học máy sử dụng
 
 | STT | Mô hình | Thư viện | Mô tả ngắn |
@@ -44,8 +40,6 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 | 5 | **Gradient Boosting** | `GradientBoostingClassifier` | Học nối tiếp nhiều mô hình yếu để cải thiện kết quả |
 | 6 | **AdaBoost** | `AdaBoostClassifier` | Boosting đơn giản, hiệu quả tốt |
 | 7 | **Artificial Neural Network (ANN)** | `TensorFlow / Keras` | Mô hình phi tuyến học sâu, phù hợp cho dữ liệu phức tạp |
-
----
 
 ## Quy trình thực hiện
 
@@ -71,9 +65,7 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
    - Đưa ra mô hình cho hiệu năng tốt nhất
    - Phân tích ưu – nhược điểm của từng mô hình
 
----
-
-## Kết quả minh họa (ví dụ)
+## Kết quả minh họa
 
 | Mô hình | Accuracy (%) | F1-score | Nhận xét |
 |----------|---------------|----------|-----------|
@@ -85,8 +77,6 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 | AdaBoost | 87.4 | 0.86 | Boosting đơn giản, kết quả tốt |
 | ANN | **90.3** | **0.89** | Hiệu năng cao nhất |
 
----
-
 ## Thư viện sử dụng
 - `pandas`, `numpy` – xử lý dữ liệu  
 - `matplotlib`, `seaborn` – trực quan hóa  
@@ -94,14 +84,12 @@ Bộ dữ liệu **`TrafficTwoMonth.csv`** gồm thông tin thu thập trong 2 t
 - `tensorflow`, `keras` – xây dựng mạng nơ-ron nhân tạo  
 - `jupyter notebook` – môi trường thực thi và trình bày kết quả  
 
----
 
 ## Kết luận
 - Dữ liệu giao thông có thể dự đoán hiệu quả bằng nhiều mô hình học máy khác nhau.  
 - Các mô hình **Boosting** và **ANN** cho kết quả chính xác cao nhất.  
 - Biến thời gian (*Time*) và tổng phương tiện (*Total*) có ảnh hưởng lớn đến dự đoán.  
 
----
 
 > **Trường:** [Điền tên trường bạn nếu muốn]  
 > 📅 **Thời gian thực hiện:** Học kỳ I – Năm học 2025  
